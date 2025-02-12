@@ -1,0 +1,15 @@
+@media(max-width:468px){
+  .slider{
+    padding:1rem;
+    border-radius:0;
+    width:55vh;
+  }
+  .omelette{
+    padding:0px;
+    max-width: none;
+    width:100%;
+    align-self: center;
+    border-radius:0;
+    margin:0;
+  }
+}

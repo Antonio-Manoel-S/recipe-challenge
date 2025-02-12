@@ -1,0 +1,108 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: hsl(30, 54%, 90%);
+      height:100vh;
+    }
+    
+    .slider{
+      border-radius:20px;
+      width:600px;
+      background-color:white;
+      display:flex;
+      flex-direction: column;
+      padding:2rem;
+      gap:30px;
+    }
+    h1{
+      color:#91510A;
+      padding-bottom:10px;
+    }
+    .timep{
+      background-color: hsl(330, 100%, 98%);
+      padding:20px;
+      border-radius:20px;
+      font-size: 12px;
+      
+    }
+    .timep p{
+      margin:10px
+    }
+    .onep{
+     margin-top: 10px;
+    }
+    .timep ul{
+      padding-left: 20px;
+    }
+    .timep li{
+    }
+    .omelette{
+     border-radius: 20px;
+     margin:0px;
+    }
+    .title-prep{
+      color:hsl(332, 51%, 32%);
+      font-size:20px;
+      padding-bottom:10px;
+    }
+    
+    .recipe-title{
+      color:black;
+      padding:0px;
+    }
+    .table{
+      display:flex;
+      border-bottom: grey solid 1px;
+      align-self: center;
+      position:relative;
+      padding:30px;
+    }
+    .nutriname {
+      position:absolute;
+      padding:5px;
+    }
+    .nutri{
+     position: absolute;
+     right:10rem;
+     color:brown;
+     font-weight: 800;
+     padding:5px;
+    }
+    .table.last{
+      border-bottom:0;
+    }
+    .table.first{
+      padding-top:10px;
+    }
+    
+    .steps{
+      list-style-position: inside;
+    }
+    .steps ::marker{
+      color:brown;
+      font-weight: 800;
+    }
+    .ingredients{
+      border-bottom: grey solid 1px;
+      padding-bottom:30px;
+    }
+    .ingredients ::marker{
+      color:brown;
+    }
+    
+    .timep ::marker{
+      color:hsl(332, 51%, 32%);
+    }
+    .instructions{
+      border-bottom: grey solid 1px;
+      padding-bottom:30px;
+    }
+    .nutrition{
+    }
+    .steps li{
+      
+    }
