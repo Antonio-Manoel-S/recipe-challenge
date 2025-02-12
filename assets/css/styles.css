@@ -81,11 +81,13 @@
     
     .steps{
       list-style-position: outside;
+      padding-left:1rem;
     }
     .steps ::marker{
       color:brown;
       font-weight: 800;
       position: absolute;
+      
     }
     .ingredients{
       border-bottom: grey solid 1px;
@@ -106,7 +108,7 @@
       padding-bottom:30px;
     }
     .steps li{
-      padding:0px;
+      padding-bottom:5px;
       position:relative;
       padding-left:2rem;
     }
