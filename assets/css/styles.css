@@ -8,6 +8,10 @@
       background-color: hsl(30, 54%, 90%);
       height:100vh;
     }
+    p{
+      font-family:"Outfit";
+      font-weight: 400;
+    }
     
     .slider{
       border-radius:20px;
@@ -21,6 +25,8 @@
     h1{
       color:#91510A;
       padding-bottom:10px;
+      font-family: "Young Serif";
+      font-weight: 400;
     }
     .timep{
       background-color: hsl(330, 100%, 98%);
@@ -38,8 +44,6 @@
     .timep ul{
       padding-left: 20px;
     }
-    .timep li{
-    }
     .omelette{
      border-radius: 20px;
      margin:0px;
@@ -48,6 +52,8 @@
       color:hsl(332, 51%, 32%);
       font-size:20px;
       padding-bottom:10px;
+      font-family: "Outfit";
+      font-weight:700;
     }
     
     .recipe-title{
@@ -95,6 +101,8 @@
     }
     .ingredients li{
       padding:5px;
+      font-family: "Outfit";
+      font-weight: 400;
     }
     .ingredients ::marker{
       color:brown;
@@ -111,4 +119,6 @@
       padding-bottom:5px;
       position:relative;
       padding-left:2rem;
+      font-family: "Outfit";
+      font-weight: 400;
     }
