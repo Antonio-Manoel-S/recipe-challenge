@@ -1,4 +1,7 @@
 @media(max-width:468px){
+  body{
+    height:auto;
+  }
   .slider{
     padding:1rem;
     border-radius:0;
@@ -7,9 +10,17 @@
   .omelette{
     padding:0px;
     max-width: none;
-    width:100%;
+    width: 100vw;
     align-self: center;
     border-radius:0;
     margin:0;
   }
+  .nutri {
+  position: absolute;
+  right: 5rem;
+  color: brown;
+  font-weight: 800;
+  padding: 5px;
+  }
+  
 }
