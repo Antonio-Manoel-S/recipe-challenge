@@ -80,15 +80,19 @@
     }
     
     .steps{
-      list-style-position: inside;
+      list-style-position: outside;
     }
     .steps ::marker{
       color:brown;
       font-weight: 800;
+      position: absolute;
     }
     .ingredients{
       border-bottom: grey solid 1px;
       padding-bottom:30px;
+    }
+    .ingredients li{
+      padding:5px;
     }
     .ingredients ::marker{
       color:brown;
@@ -101,8 +105,8 @@
       border-bottom: grey solid 1px;
       padding-bottom:30px;
     }
-    .nutrition{
-    }
     .steps li{
-      
+      padding:0px;
+      position:relative;
+      padding-left:2rem;
     }
