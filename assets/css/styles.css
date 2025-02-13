@@ -6,7 +6,7 @@
       align-items: center;
       flex-direction: column;
       background-color: hsl(30, 54%, 90%);
-      height:100vh;
+      height:auto;
     }
     p{
       font-family:"Outfit";
