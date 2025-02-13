@@ -15,7 +15,7 @@
     
     .slider{
       border-radius:20px;
-      width:600px;
+      width:30vh;
       background-color:white;
       display:flex;
       flex-direction: column;
@@ -103,6 +103,9 @@
       padding:5px;
       font-family: "Outfit";
       font-weight: 400;
+    }
+    .ingredientslist{
+      padding-left:10px;
     }
     .ingredients ::marker{
       color:brown;
